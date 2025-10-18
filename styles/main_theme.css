@@ -1,0 +1,40 @@
+body {
+    background-color: #210000; /* Dark black */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px; /* Some space at the top for header */
+}
+
+.service-box {
+    background-color: #7a0c0c; /* Darker purple variant */
+    padding: 20px;
+    margin: 10px auto; /* Center box horizontally */
+    border-radius: 8px; /* Add some rounded corners */
+}
+
+p, a {
+    color: #99b3ff; /* Sky blue for text and links to complement the purple palette */
+}
+    
+/*---*/
+
+.topnav {
+  background-color: #0a2c6f; /* Darker blue */
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left; /* Left align links */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 3px; /* Rounded corners for some hover effect */
+}
+
+.topnav a:hover {
+  background-color: #04AA6D; /* Brighter green on hover to distinguish between links */
+  color: white;
+}
